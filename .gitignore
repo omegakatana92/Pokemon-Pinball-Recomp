@@ -1,0 +1,33 @@
+# Game Boy ROMs - NEVER commit these
+*.gb
+*.gbc
+*.GB
+*.GBC
+*.gbx
+*.GBX
+
+# Build directories
+build/
+out/
+bin/
+obj/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Visual Studio
+.vs/
+
+# VS Code
+.vscode/
+
+# Other IDE files
+.idea/
+
+# OS files
+Thumbs.db
+.DS_Store
